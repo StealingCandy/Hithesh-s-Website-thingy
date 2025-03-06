@@ -1,0 +1,100 @@
+/* A simple css reset */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* The Font Family- Really important!! */
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(207, 50, 255);
+    background-image: url(https://i.pinimg.com/736x/05/57/a7/0557a79986e9f0a0c00ed8eb830275d7.jpg);
+}
+
+/* reset for images to ensure they ar 100% of the parent container width */
+img {
+    width: 100%;
+}
+
+/* The hero section styling- use your OWN Hero Image URL here */
+.hero {
+    background-image: url(https://i.pinimg.com/originals/64/db/fb/64dbfb279110e5730b698a752532605b.gif);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* BIG text styling for the hero section text */
+.hero-text {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
+}
+
+/* nice big font on a banner style background */
+.topic-title{
+    color: white;
+    font-size: 1em;
+    padding: 0.1em 3em;
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+}
+
+@-webkit-keyframes glow { 
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8A00C4, 0 0 40px #8A00C4, 0 0 50px #8A00C4, 0 0 60px #8A00C4, 0 0 70px #8A00C4;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #6C3BAA, 0 0 40px #6C3BAA, 0 0 50px #6C3BAA, 0 0 60px #6C3BAA, 0 0 70px #6C3BAA, 0 0 80px #6C3BAA;
+    }
+}
+
+/* Three column grid with a nice big gap */
+.topic-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6em;
+    /* bring the whole section in off the sides of the page */
+    width: 70%;
+    /* top margin of 3em and center right/left */
+    margin: 3em auto;
+}
+
+/* Styling for the individual topic cards rounded edges background color and a drop shadow */
+.topic-card{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the topic card titles */
+.topic-card-text{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    /* center align text */
+    text-align: center;
+}
+
+
+/* Styling for a footer section to take a bit of space at the bottom of the page */
+.footer{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    text-align: right;
+    padding: 3em 3em;
+}
