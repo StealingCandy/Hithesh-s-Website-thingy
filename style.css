@@ -7,8 +7,8 @@ html {
     /* The Font Family- Really important!! */
     font-family: 'Courier New', Courier, monospace, sans-serif;
     box-sizing: border-box;
-    background-color: rgb(207, 50, 255);
-    background-image: url(https://i.pinimg.com/736x/05/57/a7/0557a79986e9f0a0c00ed8eb830275d7.jpg);
+    background-color: rgb(38, 37, 39);
+    background-image: url(images/2025_08_27_0ni_Kleki.png);
 }
 
 /* reset for images to ensure they ar 100% of the parent container width */
@@ -18,7 +18,7 @@ img {
 
 /* The hero section styling- use your OWN Hero Image URL here */
 .hero {
-    background-image: url(https://i.pinimg.com/originals/64/db/fb/64dbfb279110e5730b698a752532605b.gif);
+    background-image: url(images/Gif-Bonjnil2.gif);
     height: 25vh;
     background-size: cover;
     background-position: center;
@@ -55,10 +55,10 @@ img {
 
 @-webkit-keyframes glow { 
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8A00C4, 0 0 40px #8A00C4, 0 0 50px #8A00C4, 0 0 60px #8A00C4, 0 0 70px #8A00C4;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4500c4, 0 0 40px #2a00c4, 0 0 50px #0034c4, 0 0 60px #0055c4, 0 0 70px #0086c4;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #6C3BAA, 0 0 40px #6C3BAA, 0 0 50px #6C3BAA, 0 0 60px #6C3BAA, 0 0 70px #6C3BAA, 0 0 80px #6C3BAA;
+      text-shadow: 0 0 20px #fff, 0 0 30px #3b3daa, 0 0 40px #3b3daa, 0 0 50px #3b3daa, 0 0 60px #3b3daa, 0 0 70px #3b3daa, 0 0 80px #3b3daa;
     }
 }
 
